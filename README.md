@@ -14,9 +14,7 @@ pip install -r requirements.txt
 
 I used the VisDrone dataset with 80 classes, converted to YOLO format. Make sure your folder structure is like this:
 
-kotlin
-Copy
-Edit
+
 VisDrone-YOLO/
 ├── images/
 │   ├── train/
@@ -25,6 +23,7 @@ VisDrone-YOLO/
 │   ├── train/
 │   └── val/
 └── data.yaml
+
 Example data.yaml
 yaml:
 train: C:/Users/VisDrone-YOLO/VisDrone-YOLO/VisDrone-YOLO/images/train
@@ -38,10 +37,12 @@ names: [person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, tra
 python train.py --img 640 --batch 16 --epochs 30 --data data.yaml --weights yolov5s.pt --name visdrone_run
 
 🔍 Inference Command
+
 bash
 python detect.py --weights runs/train/visdrone_run/weights/best.pt --img 640 --conf 0.25 --source C:/Users/VisDrone-YOLO/VisDrone-YOLO/VisDrone-YOLO/images/val
 
 📈 Results
+
 Training and validation logs are saved in: runs/train/visdrone_run
 
 TensorBoard:
@@ -49,6 +50,7 @@ bash
 tensorboard --logdir runs/train
 
 🙋‍♂️ Author
+
 Premnath
 2nd Year – B.Tech Robotics and Automation
 Karunya Institute of Technology and Sciences
