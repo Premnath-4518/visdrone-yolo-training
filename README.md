@@ -32,3 +32,16 @@ git clone https://github.com/ultralytics/ultralytics
 cd ultralytics
 pip install -r requirements.txt
 
+### 2. Prepare VisDrone Dataset (YOLO format)
+### Make sure your folder structure is like this:
+
+VisDrone-YOLO/
+├── images/
+│   ├── train/
+│   └── val/
+├── labels/
+│   ├── train/
+│   └── val/
+└── data.yaml
+
+
