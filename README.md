@@ -1,24 +1,12 @@
 # 🚁 Small Object Detection in Aerial Videos using YOLOv8
 
 Author:Premnath MV 
+
 Reg No:URK23RA4014
 
 
----
 
-## 🔗 Table of Contents
 
-- [📌 Project Description](#-project-description)
-- [🛠️ Tools and Technologies Used](#-tools-and-technologies-used)
-- [🔧 Setup Instructions](#-setup-instructions)
-  - [1️⃣ Clone YOLOv8 Repository](#1-clone-yolov8-repository)
-  - [📂 Dataset Structure](#2--dataset-structure)
-  - [📄 Create data.yaml](#3--create-datayaml)
-  - [🏋️‍♂️ Train the YOLOv8 Model](#4--train-the-yolov8-model)
-  - [📊 Results After Training](#5--results-after-training)
-  - [📸 Inference Example](#6--inference-example)
-- [👨‍🏫 Mentorship](#-mentorship)
-- [📚 References](#-references)
 
 ---
 
@@ -87,7 +75,6 @@ yolo detect train data=data.yaml model=yolov8n.pt epochs=100 imgsz=640
 ### 5️⃣ 📊 Results After Training
 
 After training, results are saved inside:
-
 ```
 runs/detect/train/
 ├── weights/
