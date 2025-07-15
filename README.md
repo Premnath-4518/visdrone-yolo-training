@@ -32,8 +32,6 @@ git clone https://github.com/ultralytics/ultralytics
 cd ultralytics
 pip install -r requirements.txt
 
----
-
 ## 🔗 Table of Contents
 
 - [📌 Project Description](#-project-description)
@@ -48,7 +46,6 @@ pip install -r requirements.txt
 - [👨‍🏫 Mentorship](#-mentorship)
 - [📚 References](#-references)
 
----
 
 
 
