@@ -31,3 +31,4 @@ This project focuses on detecting **small objects Detectiton** in aerial videos 
 git clone https://github.com/ultralytics/ultralytics
 cd ultralytics
 pip install -r requirements.txt
+
